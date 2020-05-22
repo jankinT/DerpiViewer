@@ -1,2 +1,2 @@
 # DerpiViewer
-Derpibooru分官方安卓app
+Derpibooru非官方安卓app
