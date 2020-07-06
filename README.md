@@ -1,6 +1,6 @@
 # DerpiViewer
 
-**[墙内下载最新版点此](http://39.105.48.87:8080/download/release-latest.apk)**
+**[墙内点此下载最新版](http://39.105.48.87:8080/download/release-latest.apk)**
 
 Unofficial Android App for ***Derpibooru***
 
