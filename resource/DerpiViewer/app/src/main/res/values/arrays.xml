@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="str_array_sf_names">
+        <item>上传日期</item>
+        <item>收藏数</item>
+        <item>点赞数</item>
+        <item>点踩数</item>
+        <item>分数（赞与踩之差）</item>
+        <item>评论数</item>
+    </string-array>
+    <string-array name="str_array_sd_names">
+        <item>降序</item>
+        <item>增序</item>
+    </string-array>
+    <string-array name="str_array_language">
+        <item>English</item>
+        <item>简体中文</item>
+    </string-array>
+    <string-array name="str_array_share">
+        <item>复制图片URL</item>
+        <item>复制图片来源</item>
+    </string-array>
+</resources>

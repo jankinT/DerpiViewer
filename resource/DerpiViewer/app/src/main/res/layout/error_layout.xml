@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/colorWhite"
+    android:isScrollContainer="true">
+
+    <TextView
+        style="@style/textBlackTitle"
+        android:textColor="@color/colorUiText"
+        android:gravity="center"
+        android:text="@string/str_loading_failed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

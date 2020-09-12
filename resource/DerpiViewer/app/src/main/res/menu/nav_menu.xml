@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_with_fragment">
+        <item android:title="@string/str_main"
+            android:id="@+id/menu_main"
+            android:icon="@drawable/ic_home"/>
+        <item android:title="@string/str_search"
+            android:id="@+id/menu_search"
+            android:icon="@drawable/ic_search"/>
+        <item android:title="@string/str_filter_set"
+            android:id="@+id/menu_filter_set"
+            android:icon="@drawable/ic_filter"/>
+        <item android:title="@string/str_about"
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_info"/>
+    </group>
+
+    <item android:title="@string/str_language"
+        android:id="@+id/menu_language"
+        android:icon="@drawable/ic_language"/>
+    <item android:title="@string/str_check_for_update"
+        android:id="@+id/menu_update"
+        android:icon="@drawable/ic_update"/>
+</menu>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorMain"
+            android:padding="5dp"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <TextView
+                android:text="@string/str_search"
+                style="@style/textBlackTitle"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/search_input"
+                style="@style/search_input"
+                android:inputType="textLongMessage"
+                android:imeOptions="actionSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:layout_marginHorizontal="3dp"/>
+
+            <ImageButton
+                android:id="@+id/search_button"
+                android:src="@drawable/ic_search"
+                style="@style/button_style"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorMain"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:gravity="center_vertical"
+            android:padding="5dp">
+
+            <Spinner
+                android:id="@+id/_sf"
+                style="@style/textBlack"
+                android:gravity="end"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:spinnerMode="dropdown"/>
+
+            <Spinner
+                android:id="@+id/_sd"
+                style="@style/textBlack"
+                android:gravity="end"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/page_num"
+            style="@style/textBlackTitle"
+            android:textColor="@color/colorUiText"
+            android:background="@color/colorPicHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/search_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/last_page"
+        android:src="@drawable/ic_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        style="@style/actionButton"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/next_page"
+        android:src="@drawable/ic_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        style="@style/actionButton"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

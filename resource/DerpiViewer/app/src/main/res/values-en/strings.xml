@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DerpiViewer</string>
+    <string name="strWelcome">Welcome!</string>
+    <string name="info">APP developer Jankin.\nAll rights to Derpibooru.org</string>
+    <string name="str_version">Version</string>
+    <string name="str_download_latest_version">Get the latest version</string>
+    <string name="str_loading">Loading, please stand by.</string>
+    <string name="email_info">Email</string>
+    <string name="str_about">About</string>
+    <string name="str_main">Home Page</string>
+    <string name="str_default">Default</string>
+    <string name="str_maximum_spoilers">Maximum spoilers</string>
+    <string name="str_every_thing">Everything</string>
+    <string name="str_18plus_r34">18+ rule 34</string>
+    <string name="str_18plus_dark">18+ dark</string>
+    <string name="str_legacy_default">Legacy default</string>
+    <string name="info_default">
+        The site\'s default filter. Hides \"not art\" content, and should spoiler/hide images that would exceed the show\'s rating.
+    </string>
+    <string name="info_maximum_spoilers">
+        Same as Default, but hidden content is spoilered.
+    </string>
+    <string name="info_every_thing">
+        This filter won\'t filter anything out at all - that means NSFW content!
+    </string>
+    <string name="info_18plus_r34">
+        Filter displays erotic images, while hiding dark and grotesque content, as well as meta, memes and other \"not art\" things.
+    </string>
+    <string name="info_18plus_dark">
+        Filter displays dark and grotesque images, while hiding erotic content, as well as meta, memes and other \"not art\" things.
+    </string>
+    <string name="info_legacy_default">
+        For those few that may have liked it. Hides some of the more adult images and makes the site largely safe for work. Hides most \"not art\" content.
+    </string>
+    <string name="str_choose_filter">Choose filter</string>
+    <string name="str_filter_info">Filter description</string>
+    <string name="str_filter_set">Filter setting</string>
+    <string name="str_uploader">uploader</string>
+    <string name="str_loading_failed">Loading failed</string>
+    <string name="str_loading_comment_failed">Comment(s) loading failed</string>
+    <string name="str_download">download</string>
+    <string name="str_download_done">Downloading finished</string>
+    <string name="str_download_failed">Downloading failed</string>
+    <string name="str_search">Search</string>
+    <string name="str_confirm">confirm</string>
+    <string name="str_upload_date">uploaded at</string>
+    <string name="str_language">Language</string>
+    <string name="str_downloading_start">DownLoading start</string>
+    <string name="str_shout_out">Shout out to</string>
+    <string name="str_name_dawn">Dawn</string>
+    <string name="str_source">"Source: "</string>
+    <string name="str_description">Description: </string>
+    <string name="str_check_for_update">Check for updates</string>
+    <string name="str_new_version_found">New version found</string>
+    <string name="str_no_new_version">Current version is already the latest</string>
+    <string name="str_cancel">cancel</string>
+    <string name="str_click_on_the_button">Please click on "I'm not a robot" Button if there is one, then return to the APP</string>
+    <string name="str_update">update</string>
+    <string name="str_share">share</string>
+    <string name="str_none">Not provided yet</string>
+    <string name="str_unknown">Unknow</string>
+    <string name="str_no_source">Image source is not provided yet</string>
+    <string name="str_copy_succeed">Copy succeed</string>
+</resources>
