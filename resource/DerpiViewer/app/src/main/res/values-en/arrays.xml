@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="str_array_sf_names">
+        <item>Sort by upload date</item>
+        <item>Sort by fave count</item>
+        <item>Sort by upvotes</item>
+        <item>Sort by downvotes</item>
+        <item>Sort by score</item>
+        <item>Sort by comments</item>
+    </string-array>
+    <string-array name="str_array_sd_names">
+        <item>Descending</item>
+        <item>Ascending</item>
+    </string-array>
+    <string-array name="str_array_share">
+        <item>Copy picture URL</item>
+        <item>Copy picture source</item>
+    </string-array>
+</resources>

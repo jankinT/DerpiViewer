@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">呆呆看</string>
+    <string name="app_version" translatable="false">0.2.1</string>
+    <string name="app_site" translatable="false">https://github.com/jankinT/DerpiViewer/releases</string>
+    <string name="strWelcome">欢迎！</string>
+    <string name="info">
+        APP作者：Jankin\n所有版权归于Derpibooru.org
+    </string>
+    <string name="website" translatable="false">
+        <u>https://derpibooru.org</u>
+    </string>
+    <string name="email_address" translatable="false">
+        <i>www.jankin9907@163.com</i>
+    </string>
+    <string name="str_version">版本</string>
+    <string name="str_download_latest_version">获取最新版本</string>
+    <string name="str_loading">加载中，请稍后</string>
+    <string name="email_info">作者邮箱</string>
+    <string name="web_info" translatable="false">derpibooru</string>
+    <string name="str_about">关于</string>
+    <string name="str_main">主页</string>
+    <string name="str_default">默认</string>
+    <string name="str_maximum_spoilers">最大遮挡度</string>
+    <string name="str_every_thing">显示所有</string>
+    <string name="str_18plus_r34">18+默认</string>
+    <string name="str_18plus_dark">18+黑暗</string>
+    <string name="str_legacy_default">旧版默认</string>
+    <string name="info_default">
+        默认的过滤设置，隐藏那些不是“画作”的图画，遮挡或者隐藏大部分超出正剧评级的图片（如成人图片等）。
+    </string>
+    <string name="info_maximum_spoilers">
+        与默认规则一样，但是对于所有隐藏的图片改为遮挡。
+    </string>
+    <string name="info_every_thing">
+        该设置不会过滤任何图片。
+    </string>
+    <string name="info_18plus_r34">
+        该设置不会过滤成人图片，但是会过滤黑暗、血腥、怪异的图片以及非“画作”的图片，如表情包等。
+    </string>
+    <string name="info_18plus_dark">
+        与18+默认相反，显示黑暗血腥或者怪异的图片，但是隐藏成人图片及非“画作”的图片。
+    </string>
+    <string name="info_legacy_default">
+        隐藏成人内容，隐藏非“画作”内容（表情包等）。
+    </string>
+    <string name="str_choose_filter">选择过滤规则</string>
+    <string name="str_filter_info">过滤规则介绍</string>
+    <string name="str_filter_set">过滤设置</string>
+    <string name="str_uploader">上传者</string>
+    <string name="str_loading_failed">加载失败</string>
+    <string name="str_loading_comment_failed">评论加载失败</string>
+    <string name="str_download">下载</string>
+    <string name="str_image_dir" translatable="false">derpi</string>
+    <string name="str_download_done">下载成功</string>
+    <string name="str_download_failed">下载失败</string>
+    <string name="str_search">搜索</string>
+    <string name="str_confirm">确定</string>
+    <string name="str_update">更新</string>
+    <string name="str_cancel">取消</string>
+    <string name="str_upload_date">上传日期</string>
+    <string name="str_language">语言</string>
+    <string name="str_downloading_start">下载开始</string>
+    <string name="str_shout_out">特别感谢</string>
+    <string name="str_name_dawn">破晓</string>
+    <string name="str_source">来源：</string>
+    <string name="str_description">简介：</string>
+    <string name="str_check_for_update">检查更新</string>
+    <string name="str_new_version_found">发现更新版本</string>
+    <string name="str_no_new_version">当前版本已是最新</string>
+    <string name="str_click_on_the_button">如果有的话，请点击"I'm not a robot"按钮，再回到APP</string>
+    <string name="str_share">分享</string>
+    <string name="str_none">暂无</string>
+    <string name="str_unknown">未知</string>
+    <string name="str_no_source">图片来源暂无</string>
+    <string name="str_copy_succeed">复制成功</string>
+</resources>

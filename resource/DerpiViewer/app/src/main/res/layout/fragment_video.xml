@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/colorWhite"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorMain2"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/image_fav_num"
+                    style="@style/textBlack"
+                    android:textColor="@color/colorFav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:src="@drawable/ic_star"
+                    style="@style/icons"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp" />
+
+                <TextView
+                    android:id="@+id/image_up_num"
+                    style="@style/textBlack"
+                    android:textColor="@color/colorUpvote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:src="@drawable/ic_up"
+                    style="@style/icons"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp" />
+
+                <TextView
+                    android:id="@+id/image_score"
+                    style="@style/textBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp" />
+
+                <ImageView
+                    android:src="@drawable/ic_down"
+                    style="@style/icons"/>
+
+                <TextView
+                    android:id="@+id/image_down_num"
+                    style="@style/textBlack"
+                    android:textColor="@color/colorDownvote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp" />
+
+                <ImageView
+                    android:src="@drawable/ic_comment"
+                    style="@style/icons"/>
+
+                <TextView
+                    android:id="@+id/image_comment_num"
+                    style="@style/textBlack"
+                    android:textColor="@color/colorComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/str_uploader"
+                    style="@style/textBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp" />
+
+                <TextView
+                    android:id="@+id/image_uploader"
+                    style="@style/textBlack"
+                    android:textColor="@color/colorUiText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp" />
+
+                <TextView
+                    android:id="@+id/image_info"
+                    style="@style/textBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/_download"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_download"
+                        style="@style/icons"/>
+
+                    <TextView
+                        android:text="@string/str_download"
+                        style="@style/textBlack"
+                        android:textColor="@color/colorUiText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/_share"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_share"
+                        style="@style/icons"/>
+
+                    <TextView
+                        android:text="@string/str_share"
+                        style="@style/textBlack"
+                        android:textColor="@color/colorUiText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <VideoView
+                android:id="@+id/display"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/colorMain2">
+
+            <TextView
+                android:id="@+id/image_source"
+                style="@style/linkedText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="email|web"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/image_description"
+                style="@style/linkedText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="email|web"/>
+
+        </LinearLayout>
+
+        <com.ismaeltoe.FlowLayout
+            android:id="@+id/_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:horizontalPadding="5dp"
+            app:verticalPadding="5dp">
+
+        </com.ismaeltoe.FlowLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/comments_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/last_page"
+                android:src="@drawable/ic_left"
+                style="@style/button_style"/>
+            <TextView
+                android:id="@+id/page_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/textBlack"/>
+            <ImageButton
+                android:id="@+id/next_page"
+                android:src="@drawable/ic_right"
+                style="@style/button_style"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

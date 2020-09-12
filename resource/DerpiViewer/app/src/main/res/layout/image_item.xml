@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPicHeader"
+        android:gravity="center">
+
+        <ImageView
+            style="@style/icons"
+            android:src="@drawable/ic_star" />
+
+        <TextView
+            android:id="@+id/fav_num"
+            android:textColor="@color/colorFav"
+            style="@style/textBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp" />
+
+        <ImageView
+            style="@style/icons"
+            android:src="@drawable/ic_up" />
+
+        <TextView
+            android:id="@+id/score_num"
+            style="@style/textBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            style="@style/icons"
+            android:src="@drawable/ic_down"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp" />
+
+        <ImageView
+            style="@style/icons"
+            android:src="@drawable/ic_comment" />
+
+        <TextView
+            android:id="@+id/comments_num"
+            android:textColor="@color/colorComment"
+            style="@style/textBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_thumb"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

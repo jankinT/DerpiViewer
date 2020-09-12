@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorLinked">#2579FF</color>
+    <color name="colorMain">#3d92d0</color>
+    <color name="colorMainLighter">#62a7d9</color>
+    <color name="colorMain2">#e2ebf2</color>
+    <color name="colorPicHeader">#e6eef3</color>
+    <color name="colorFav">#c4b246</color>
+    <color name="colorUpvote">#67af2b</color>
+    <color name="colorDownvote">#cf0001</color>
+    <color name="colorComment">#9273d0</color>
+    <color name="colorHidden">#cf0001</color>
+    <color name="colorUiText">#2887cb</color>
+    <color name="colorShadow">#66666666</color>
+    <color name="colorSelected">#62a7d9</color>
+    <color name="transparent">#00000000</color>
+</resources>

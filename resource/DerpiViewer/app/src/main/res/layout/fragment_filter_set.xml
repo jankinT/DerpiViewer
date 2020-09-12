@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <RadioGroup
+       android:id="@+id/filter_group"
+       android:paddingTop="10dp"
+       android:paddingBottom="30dp"
+       android:paddingHorizontal="40dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:text="@string/str_choose_filter"
+           style="@style/textBlackTitle"
+           android:textAlignment="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_horizontal" />
+
+       <RadioButton
+           android:id="@+id/filter_default"
+           android:text="@string/str_default"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <RadioButton
+           android:id="@+id/filter_maximum_spoiler"
+           android:text="@string/str_maximum_spoilers"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <RadioButton
+           android:id="@+id/filter_everything"
+           android:text="@string/str_every_thing"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <RadioButton
+           android:id="@+id/filter_18plus_r34"
+           android:text="@string/str_18plus_r34"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <RadioButton
+           android:id="@+id/filter_18plus_dark"
+           android:text="@string/str_18plus_dark"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <RadioButton
+           android:id="@+id/filter_legacy_default"
+           android:text="@string/str_legacy_default"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+   </RadioGroup>
+
+    <TextView
+        android:text="@string/str_filter_info"
+        style="@style/textBlackTitle"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/filter_info"
+        style="@style/textBlack"
+        android:paddingHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
